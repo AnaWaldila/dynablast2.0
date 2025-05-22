@@ -1,0 +1,1 @@
+Este código foi averiguado no dia 02/10/24, comparando os resultados dinâmicos de placas submetidas à explosão com os presentes na tese. Todos os resultados foram congruentes, sendo então o programa calibrado.
