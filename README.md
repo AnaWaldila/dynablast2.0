@@ -1,17 +1,17 @@
 # DYNAblast Software Version 2.0
 
-# Introdução
+# Introduction
 
-DYNAblast é um software desenvolvido na linguagem MATLAB, sendo projetado com o objetivo de realizar análises de estruturas de placas laminadas compósitas considerando o carregamento de explosões. Considerando este tipo de estrutura, suas modificações físico e geométricas e as características do explosivo a ser utilizado, o engenheiro/pesquisador torna-se capaz de projetar estruturas que possam ser resistentes ao colapso com o auxílio do DYNAblast. Outras aplicações podem ser destacadas, como as correspondentes linhas de pesquisas militares, aeronáutica, marinha, plataformas e dentre outros exemplos cujos quais podem ser surpreendidos por carregamentos de impactos (ondas de choque). Com base nisto, DYNAblast foi desenvolvido para facilitar as análises de deslocamentos, tensões e deformações das coordenadas do centro da estrutura de placa. Ademais, análises paramétricas são incorporadas ao programa, como averiguação das curvas de deslocamento máximo conforme modificações das características do explosivo, curvas de Fator de Amplificação Dinâmica e outras.
-DYNAblast 2.0 corresponde à uma generalização e consideração de mais tipos de estruturas para com relação ao seu predecessor [DYNAblast 1.0](https://github.com/AnaWaldila/dynablast), cujas considerações eram restritas àpenas placas finas do tipo isotrópicas. Assim sendo, a versão 2.0 atualiza as análises de placas utilizando 4 tipos de teorias de placas lamiandas, podendo estas serem ortotrópicas e, ademais, aplicação de outras equações características das curvas de explosão.
+DYNAblast is a software developed in the MATLAB language and designed with the aim of analyzing composite laminated plate structures considering blast loading. Assuming this type of structure, its physical and geometric modifications and the characteristics of the explosive to be used, the engineer/researcher is able to design structures that can be resistence to collapses with the help of DYNAblast. Other applications can be highlighted, such as the corresponding of military research, aeronautics, marine, platforms and other examples which can be surprised by impact loads (shock waves). On this basis, DYNAblast was developed to facilitate the analysis of displacements, stresses and strain of any coordinates of the plate structure. In addition, parametric analyses are incorporated into the program, such as checking the maximum displacement curves according to changes in the characteristics of the explosive, Dynamic Amplification Factor curves and others.
+DYNAblast 2.0 is a generalization and consideration of more types of structures compared to its predecessor [DYNAblast 1.1](https://github.com/AnaWaldila/dynablast1.1), its considerations were restricted to isotropic thin plates only. Version 2.0 therefore updates the plate analysis using 4 types of laminar plate theories, which can be orthotropic, and also applies other characteristic equations of the explosion curves.
 
-## Metodologia
+## Methodology
 
-Toda a metodologia considerada para a construção do software encontra-se na Tese de Doutorado intitulada ["Análise dinâmica não linear de estruturas laminadas compósitas considerando o fenômeno da explosão"](https://www.bdtd.uerj.br:8443/handle/1/21714). Nesta tese, é possível observar as definições e formulações atreladas ao carregamento explosivo, bem como as teorias de placas utilizadas, metodologias e _**demonstração**_ de todas as formulações utilizadas. Assim sendo, esta presente descrição é restrita ao software DYNAblast versão 2.0.
+The entire methodology used to build the software can be found in the Doctoral Thesis entitled ["Nonlinear dynamic analysis of composite laminated structures considering the explosion phenomenon"](https://www.bdtd.uerj.br:8443/handle/1/21714). In this thesis, it is possible to observe the definitions and formulations linked to explosive loading, as well as the plate theories used, methodologies and _**demonstration**_ of all the formulations used. This description is therefore restricted to the DYNAblast software version 2.0.
 
 ## Software
 
-Quando executado, DYNAblast inicializa com uma janela, como apresentada na Figura 1, apresentando duas _tabs_ para inserção de dados. Na primeira delas, são dados referentes às características físico-geométricas da estrutura. No segundo caso, encontram-se as características do tipo de análise a ser aplicada e os dados do carregamento explosivo.
+DYNAblast initializes with a window, as shown in Figure 1, displaying two _tabs_ for entering data. The first contains data on the physical-geometric characteristics of the structure. The second contains the characteristics of the type of analysis to be applied and the explosive loading data.
 <div>
 <img src="Figures/Figure1.png" width="100%">
 </div>
@@ -19,21 +19,21 @@ Quando executado, DYNAblast inicializa com uma janela, como apresentada na Figur
  <b>Figure 1:</b> DYNAblast 2.0 - Input Data
 </p>
 
-### Características Físico-Geométricas da Estrutura
+### Physical and Geometric Characteristics of the Structure;
 
-Na Figura 1 é possível averiguar as características físico geométricas da estrutura, tais como:
+Figure 1 shows the physical and geometric characteristics of the structure, such as:
 
-* _Boundary Conditions_: Support (SS1, SS2 ou CCCC). Neste caso, as condições de contorno são do tipo simplesmente apoiado (SS1 ou SS2) ou totalmente engastado (CCCC). No caso de SS1, corresponde à caracterização de placas do tipo _cross ply_. Já para SS2, são placas do tipo _angle ply_;
-* _Damping's Coefficient_: caracteiza-se pelo coeficiente de amortecimento da estrutura, caso tenha;
-* _Length at x axis (m)_: comprimento da placa ao longo do eixo x;
-* _Length at y axis (m)_: comprimento da placa ao longo do eixo y;
-* _Shear Factor_: coeficiente (ou fator) de cisalhamento, cujo qual é aplicável à teoria do tipo FSPT (First Shear Plate Theory);
-* _Analysis point at x_: ponto cuja coordenada x deseja ser analisada;
-* _Analysis point at y_: ponto cuja coordenada y deseja ser analisada;
-* Tabela: Neste caso, a tabela corresponde a uma maneira fácil e simplificada de inserção das características de cada lâmina presente na placa laminada. É de suma importância do entendimento do usuário que a ordem de inserção das linhas corresponde à mesma ordem de inserção das lâminas. Em outras palavras, a primeira linha corresponde à lâmina de topo, seguindo ordenadamente até a última linha, que corresponde à lâmina de base. Assim sendo, as características a serem inseridas são _height_ (espessura da lâmina), _mass density_ (densidade da lâmina), _angle_ (angulação das fibras da lâmina, em radianos), _&nu;<sub>12</sub>_ e _&nu;<sub>12</sub>_ (coeficientes de Poisson), _E<sub>1</sub>_ e _E<sub>2</sub>_ (Módulo de Young) e, por fim, _G<sub>12</sub>_, _G<sub>13</sub>_ e _G<sub>23</sub>_ (Módulo de Cisalhamento).
+* _Boundary Conditions_: Support (SS1, SS2 or CCCC). In this case, the boundary conditions are either simply supported (SS1 or SS2) or campled (CCCC). In the case of SS1, it corresponds to the characterization of _cross ply_ type plates. In the case of SS2, they are _angle ply_ plates;
+* _Damping's Coefficient_: characterized by the structure's damping coefficient, if exists;
+* _Length at x axis (m)_: length of the plate along the x axis;
+* _Length at y axis (m)_: length of the plate along the y axis;
+* _Shear Factor_: shear coefficient (or factor), which is applicable to the FSPT (First Shear Plate Theory) type theory;
+* _Analysis point at x_: point whose x coordinate is to be analyzed;
+* _Analysis point at y_: point whose y coordinate is to be analyzed;
+* Table: In this case, the table is an easy and simplified way of entering the characteristics of each layer in the laminated plate. It is very important for the user to understand the order in which the rows are inserted corresponds to the order in which the laminates are inserted. In other words, the first line corresponds to the top layer, and then the last line, which corresponds to the last one. Therefore, the characteristics to be inserted are _height_, _mass density_ (density of each layer), _angle_ (angle of the fiber in each layer, in rad), _&nu;<sub>12</sub>_ e _&nu;<sub>12</sub>_ (Poisson's coefficients), _E<sub>1</sub>_ e _E<sub>2</sub>_ (Young's modulus) and _G<sub>12</sub>_, _G<sub>13</sub>_ and _G<sub>23</sub>_ (Shear's modulus).
 
-Ainda na Figura, na segunda _tab_, pode-se observar dois _containers_ de separação: _Explosion Loading_ e _Analysis_. 
-Para _Explosion Loading_, são requeridos as seguintes informações do usuário:
+Also in the Figure 1, in the second _tab_, you can see two separation _containers_: _Explosion Loading_ and _Analysis_. 
+For _Explosion Loading_, the following user information is required:
 
 ### Características da Explosão
 
