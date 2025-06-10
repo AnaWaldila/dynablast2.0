@@ -56,13 +56,14 @@ In _Characteristics_, explosion parameters are made available for editing accord
 
 In _Type of Explosion_ there are two options: _spherical_ or _hemispherical_ explosions. This option becomes important when options 1, 2, 3 or 5 are chosen in _Type of Equation_, since it is directly related to the abacus to be chosen and, consequently, the calibrations performed, Reis (2019) or Rigby (2013).
 
-### Análise Dinâmica
-No caso de _Analysis_, está diretamente espeficiado o tipo de análise que o usuário deseja atribuir ao modelo e alguns outros detalhes de especificação quanto a esta. O primeiro passo corresponde ao tipo de teoria a ser considerada, dentre 4 disponíveis, conforme Figura 3: CLPT (_Classical Laminated Plate Theory_, Teoria Clássica de Placas Laminadas), FSPT (_First Shear Plate Theory_, Toeria de Primeira Ordem no Cisalhamento em Placas), HSPT (_High Shear Plate Theory_, Teoria de Alta Ordem no Cisalhamento de Placas) e TvK (_von Karman Theory_, Teoria de von Karman).
-Posteriormente, o usuário deve espeficar alguns outros quesitos, tais como:
-* _Type of Analysis_: Tempo de duração do carregamento dinâmico. Naturalmente, o carregamento explosivo corresponde na duração total das fases positiva e negativa. Contudo, o usuário pode especificar um tempo maior ou menor que este;
-* _Negative Phase_: Opção de considerar ou não a fase negativa na análise. Independente da opção escolhida em _Type of Equation_, caso o usuário escolha não ter fase negativa, o programa automaticamente realiza os cálculos somente aplicando a equação de Friedlander durante a fase positiva. Para o tempo restante de análise, é aplicada a vibração livre;
-* _Dynamic Analysis_: O usuário pode realizar uma análise dinâmica ou estática no modelo;
-* _Analysis of Stress and Strain_: É fornecida esta opção ao usuário de forma que, ao realizar uma análise dinâmica, o software possa calcular o comportamento em tensões e deformações dinâmicas da coordenada escolhida para análise. Contudo, esta opção ativa pode ocasionar uma demora no processo de cálculos e análise. Assim sendo, se o usuário deseja apenas avaliar os deslocamentos em uma determinada coordenada, basta deixar esta opção desativada.
+### Dynamic Analysis
+
+In the case of _Analysis_, it is possible to observe the type of analysis that the user wishes to attribute to the model and some other specification details are directly specified in this part. The first step corresponds to the type of theory to be considered into the structure, among 4 available, as shown in Figure 3: CLPT (_Classical Laminated Plate Theory_), FSPT (_First Shear Plate Theory_), HSPT (_High Shear Plate Theory_) and TvK (_von Karman Theory_).
+Afterwards, the user must specify some other requirements, such as:
+* _Type of Analysis_: Duration of dynamic loading. Of course, the explosive loading corresponds to the total duration of the positive and negative phases. However, the user can specify a longer or shorter time in comparison with the total time of the blast load;
+* _Negative Phase_: Option of whether or not to consider the negative phase in the analysis. Independently of the option chosen in _Type of Equation_, if the user chooses not to have a negative phase, the program automatically performs the calculations only applying the Friedlander equation during the positive phase. For the remaining analysis time, free vibration is applied;
+* _Dynamic Analysis_: The user can perform a dynamic or static analysis on the model;
+* _Analysis of Stress and Strain_: This option is provided to the user so that, when performing a dynamic analysis, the software can calculate the dynamic stress and strain behavior of the coordinate chosen for analysis. However, this active option can cause a delay in the calculation and analysis process. Therefore, if the user only wants to evaluate the displacements at a given coordinate, simply leave this option disabled.
 
 <div>
 <img src="Figures/Figure3.png" width="20%">
