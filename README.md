@@ -72,13 +72,18 @@ Afterwards, the user must specify some other requirements, such as:
  <b>Figure 3:</b> DYNAblast 2.0 - Type of Analysis
 </p>
 
-### Análise Paramétrica
-Na segunda parte de _Analysis_, são encontradas as análises paramétricas (ou análises avançadas). Em _Case of Analysis_ é possível encontrar 4 casos de análises paramétricas, conforme Figura 4:
+### Parametric Analysis
+The second part of _Analysis_ contains parametric analyses. In _Case of Analysis_ you can find 9 cases of parametric analysis, as shown in Figure 4:
 
-* _Case 1 - Z x u<sub>z</sub> / h_: Este caso representa uma análise paramétrica de correlação entre o deslocamento máximo da placa para cada variação de Z (distância escalada) aplicada;
-* _Case 2 - W x u<sub>z</sub> / h_: Este caso representa uma análise paramétrica de correlação entre o deslocamento máximo da placa para cada variação de W (massa do explosivo) aplicada;
-* _Case 3 - t<sub>d</sub> / T<sub>L</sub> x FAD - Varying W_: Corresponde ao gráfico de Fator de Amplificação Dinâmica (FAD). Este é construído conforme a variação da massa do explosivo, cujo valor inicial é informado em _Total Mass (kg)_ e o valor final é dado em _Final TNT's mass (kg)_, juntamente com o número de intervalos (_Number of intervals_) que o usuário deseja para a análise, ou seja, o "passo de massa". Assim sendo, para cada valor de massa de explosivo, é calculado diretamente o valor de t<sub>d</sub>. O período linear da estrutura T<sub>L</sub> é calculado com base nas duas últimas cristas da análise dinâmica. Nesta fase, é importantíssimo que o usuário tenha consciência que para o cálculo do período linear, o tipo de teoria aplicado é modificado para CLPT. Após, para o desenvolvimento das análises paramétricas, a teoria considerada é a fornecida pelo usuário, conforme escolha do mesmo. Ademais, é importante que o usuário forneça um tempo de análise compatível para que o modelo contenha ao menos duas cristas, de forma que esta análise paramétrica seja bem sucedida;
-* _Case 4 - t<sub>d</sub> / T<sub>NL</sub> x FAD: Corresponde ao gráfico de Fator de Amplificação Dinâmica (FAD). Este é construído conforme a variação da distância escalada (Z). O período não linear da estrutura T<sub>NL</sub> é calculado com base nas duas últimas cristas da análise dinâmica. Nesta fase, é importantíssimo que o usuário tenha consciência que para o cálculo do período linear, o tipo de teoria aplicado é modificado para CLPT. Após, para o desenvolvimento das análises paramétricas, a teoria considerada é a fornecida pelo usuário, conforme escolha do mesmo. Ademais, é importante que o usuário forneça um tempo de análise compatível para que o modelo contenha ao menos duas cristas, de forma que esta análise paramétrica seja bem sucedida;
+* _Case 1 – Z x uz/h_: Analysis of the behavior of uz/h in comparison to the variation of Z, where the main step in Z;
+* _Case 2 – W x uz/h_: Analysis of the behavior of uz/h in comparison to the variation of W, where the main step in W. In this case, the user needs to complete the “Final TNT’s mass (kg)” and the “Number of intervals”. Consequently, in this case, is looping and the TNT’s mass to start this is completed in “Total mass (kg)” (in characteristics, TNT);
+* _Case 3 – R x uz/h_: Analysis of the behavior of uz/h in comparison to the variation of R, where the main step in R;
+* _Case 4 – td/TL x FAD – Varying W_: A specific case to analyze the behavior of uz / h when DAF (Dynamic Amplification Factor) is varying. The main step is in W. In this case, the user needs to complete the “Final TNT’s mass (kg)” and the “Number of intervals”. Consequently, in this case, is looping and the TNT’s mass to start this is completed in “Total mass (kg)” (in characteristics, TNT);
+* _Case 5 – td/TL x FAD – Varying Z_: A specific case to analyze the behavior of uz / h when DAF (Dynamic Amplification Factor) is variating. The main step is in Z.
+* _Case 6 – td/TL x FAD – Varying R_: A specific case to analyze the behavior of uz / h when DAF (Dynamic Amplification Factor) is variating. The main step is in R.
+* _Case 7 – td / TL x uz / h_: A specific case to analyze the behavior of uz / h when td / TL (rate between the time of duration of positive phase and the linear period of the structure) is varying. The main step is in Z;
+* _Case 8 – General Equation_: A specific case to calculate the same graph of “Case 1”, but showing an equation that characterizes the structure, i.e., a relation of uz/h, Z, and W.
+* _Case 11 - Surface W X R X uz/h_: A specific case to show a 3d graphic (surface) that characterizes the the maximum displacement of the plate (uz/h) when Z and W varying. In this case, the user needs to inform the "Final TNT's mass (kg)" and the "Number of intervals" between the initial and final mass (the initial mass is the input data into the label "Total Mass (kg)").
 
 <div>
 <img src="Figures/Figure4.png" width="30%">
