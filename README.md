@@ -13,7 +13,7 @@ The entire methodology used to build the software can be found in the Doctoral T
 
 DYNAblast initializes with a window, as shown in Figure 1, displaying two _tabs_ for entering data. The first contains data on the physical-geometric characteristics of the structure. The second contains the characteristics of the type of analysis to be applied and the explosive loading data.
 <div>
-<img src="Figures/Figure1.png" width="100%">
+<img src="Github_Figures/Figure1.png" width="100%">
 </div>
 <p>
  <b>Figure 1:</b> DYNAblast 2.0 - Input Data
@@ -46,7 +46,7 @@ For _Explosion Loading_, the following user information is required:
   6. _Expanded Friedlander - Experimental Data_: The governing equation of the explosion is given by the Friedlander equation, even for the negative phase. In this case, the input data is considered to be directly the characteristic parameters of the explosion, i.e., _Max Sobrepressure (Pa)_, _Max Underpressure (Pa)_, _Positive time (s)_, _Positive Impulse (Pa.s)_ , _Negative Impulse (Pa.s)_ and _decay coefficient_.
  
 <div>
-<img src="Figures/Figure2.png" width="40%">
+<img src="Github_Figures/Figure2.png" width="40%">
 </div>
 <p>
  <b>Figure 2:</b> DYNAblast 2.0 - Type of Equation
@@ -66,7 +66,7 @@ Afterwards, the user must specify some other requirements, such as:
 * _Analysis of Stress and Strain_: This option is provided to the user so that, when performing a dynamic analysis, the software can calculate the dynamic stress and strain behavior of the coordinate chosen for analysis. However, this active option can cause a delay in the calculation and analysis process. Therefore, if the user only wants to evaluate the displacements at a given coordinate, simply leave this option disabled.
 
 <div>
-<img src="Figures/Figure3.png" width="20%">
+<img src="Github_Figures/Figure3.png" width="20%">
 </div>
 <p>
  <b>Figure 3:</b> DYNAblast 2.0 - Type of Analysis
@@ -86,7 +86,7 @@ The second part of _Analysis_ contains parametric analyses. In _Case of Analysis
 * _Case 11 - Surface W X R X uz/h_: A specific case to show a 3d graphic (surface) that characterizes the the maximum displacement of the plate (uz/h) when Z and W varying. In this case, the user needs to inform the "Final TNT's mass (kg)" and the "Number of intervals" between the initial and final mass (the initial mass is the input data into the label "Total Mass (kg)").
 
 <div>
-<img src="Figures/Figure4.png" width="30%">
+<img src="Github_Figures/Figure4.png" width="30%">
 </div>
 <p>
  <b>Figure 4:</b> DYNAblast 2.0 - Case of Analysis
