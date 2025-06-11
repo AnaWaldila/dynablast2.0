@@ -83,10 +83,10 @@ The second part of _Analysis_ contains parametric analyses. In _Case of Analysis
 * _Case 6 – td/TL x FAD – Varying R_: A specific case to analyze the behavior of uz / h when DAF (Dynamic Amplification Factor) is variating. The main step is in R.
 * _Case 7 – td / TL x uz / h_: A specific case to analyze the behavior of uz / h when td / TL (rate between the time of duration of positive phase and the linear period of the structure) is varying. The main step is in Z;
 * _Case 8 – General Equation_: A specific case to calculate the same graph of “Case 1”, but showing an equation that characterizes the structure, i.e., a relation of uz/h, Z, and W.
-* _Case 11 - Surface W X R X uz/h_: A specific case to show a 3d graphic (surface) that characterizes the the maximum displacement of the plate (uz/h) when Z and W varying. In this case, the user needs to inform the "Final TNT's mass (kg)" and the "Number of intervals" between the initial and final mass (the initial mass is the input data into the label "Total Mass (kg)").
+* _Case 9 - Surface W X R X uz/h_: A specific case to show a 3d graphic (surface) that characterizes the the maximum displacement of the plate (uz/h) when Z and W varying. In this case, the user needs to inform the "Final TNT's mass (kg)" and the "Number of intervals" between the initial and final mass (the initial mass is the input data into the label "Total Mass (kg)").
 
 <div>
-<img src="Github_Figures/Figure4.png" width="30%">
+<img src="Github_Figures/Figure4.png" width="25%">
 </div>
 <p>
  <b>Figure 4:</b> DYNAblast 2.0 - Case of Analysis
@@ -95,38 +95,75 @@ The second part of _Analysis_ contains parametric analyses. In _Case of Analysis
 Após a inserção de todas as informações descritas, o usuário pode escolher entre os botõpes _Dynamic Analysis_ ou _Advanced Analysis_, ou seja, o primeiro corresponde à análise dinâmica de determinação de deslocamento x tempo (tensões e deformações, caso seja desejo do usuário) e a segunda opção é referente à análise paramétrica. Na Figura 5 é apresentado _layout_ da janela de resultados, considerando uma análise dinâmica simples. Já nas Figuras 6 à 9 encontram-se os resultados referêntes à análise paramétrica, considerando Caso 1 ao Caso 4, respectivamente.
 
 <div>
-<img src="Figures/Figure5.png" width="100%">
+<img src="Github_Figures/Figure5.png" width="100%">
 </div>
 <p>
  <b>Figure 5:</b> DYNAblast 2.0 - Dynamic Analysis
 </p>
 
 <div>
-<img src="Figures/Figure6.png" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case1" width="70%">
 </div>
 <p>
  <b>Figure 6:</b> DYNAblast 2.0 - Parametric Analysis, Case 1
 </p>
 
 <div>
-<img src="Figures/Figure7.png" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case2" width="70%">
 </div>
 <p>
  <b>Figure 7:</b> DYNAblast 2.0 - Parametric Analysis, Case 2
 </p>
 
 <div>
-<img src="Figures/Figure8.png" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case3" width="70%">
 </div>
 <p>
  <b>Figure 8:</b> DYNAblast 2.0 - Parametric Analysis, Case 3
 </p>
 
 <div>
-<img src="Figures/Figure9.png" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case4" width="70%">
 </div>
 <p>
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 4
+</p>
+
+<div>
+<img src="Github_Figures/ParametricAnalysis_Case5" width="70%">
+</div>
+<p>
+ <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 5
+</p>
+
+<div>
+<img src="Github_Figures/ParametricAnalysis_Case6" width="70%">
+</div>
+<p>
+ <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 6
+</p>
+
+<div>
+<img src="Github_Figures/ParametricAnalysis_Case7" width="70%">
+</div>
+<p>
+ <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 7
+</p>
+
+
+<div>
+<img src="Github_Figures/ParametricAnalysis_Case8" width="70%">
+</div>
+<p>
+ <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 8
+</p>
+
+
+<div>
+<img src="Github_Figures/ParametricAnalysis_Case9" width="70%">
+</div>
+<p>
+ <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 9
 </p>
 
 ### Sobre
