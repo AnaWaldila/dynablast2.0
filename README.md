@@ -165,9 +165,9 @@ Após a inserção de todas as informações descritas, o usuário pode escolher
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 9
 </p>
 
-### Sobre
+### About
 
-Este software foi desenvolvido por Ana W.Q.R. Reis sob supervisão do professor Dr. Rodrigo B. Burgos, na Universidade do Estado do Rio de Janeiro, conforme Figura 10.
+This software was developed by Dr. Ana W.Q.R. Reis and supervised by professor Dr. Rodrigo B. Burgos, at Rio de Janeiro State University, as show in Figure 10.
 
 <div>
 <img src="Figures/Figure10.png" width="50%">
@@ -176,21 +176,21 @@ Este software foi desenvolvido por Ana W.Q.R. Reis sob supervisão do professor 
  <b>Figure 10:</b> DYNAblast 2.0 - About the Software
 </p>
 
-## Referências
-REIS, Ana Waldila de Queiroz Ramiro. [Análise dinâmica não linear de estruturas laminadas compósitas considerando o fenômeno da explosão](https://www.bdtd.uerj.br:8443/handle/1/21714). 2023. 275 f. Tese (Doutorado em Engenharia Civil) - Faculdade de Engenharia, Universidade do Estado do Rio de Janeiro, Rio de Janeiro, 2023. 
+## References
+REIS, Ana Waldila de Queiroz Ramiro. [Nonlinear dynamic analysis of composite laminated structures considering the explosion phenomenon](https://www.bdtd.uerj.br:8443/handle/1/21714). 2023. 275 f. Doctorate Thesis (Portuguese) - Faculty of Engineering, State University of Rio de Janeiro, Rio de Janeiro, 2023.
 
 Reis, A.W.Q.R., Oliveira, M.F.F, Burgos, R.B. [DYNAblast - A software to obtain the behavior of plates subjected to blast loads](https://www.softxjournal.com/article/S2352-7110(22)00151-0/fulltext). SoftwareX, 2022.
 
 Reis, A.W.Q.R. [Dynablast Version 1.0](https://github.com/AnaWaldila/dynablast). Github, 2022.
 
-## Informações Gerais e Contato
+## General Information and Contact
 
-Universidade do Estado do Rio de Janeiro
+Rio de Janeiro State University
 
-Faculdade de Engenharia
+Faculty of Engineering
 
-Desenvolvedora: Dra. Ana Waldila de Queiroz Ramiro Reis
+Developer: Dr. Ana Waldila de Queiroz Ramiro Reis
 
 Professor: Dr. Rodrigo Bird Burgos
 
-Contato: anawaldila@hotmail.com
+Contact: anawaldila@hotmail.com
