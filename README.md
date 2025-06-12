@@ -95,64 +95,63 @@ The second part of _Analysis_ contains parametric analyses. In _Case of Analysis
 Após a inserção de todas as informações descritas, o usuário pode escolher entre os botõpes _Dynamic Analysis_ ou _Advanced Analysis_, ou seja, o primeiro corresponde à análise dinâmica de determinação de deslocamento x tempo (tensões e deformações, caso seja desejo do usuário) e a segunda opção é referente à análise paramétrica. Na Figura 5 é apresentado _layout_ da janela de resultados, considerando uma análise dinâmica simples. Já nas Figuras 6 à 9 encontram-se os resultados referêntes à análise paramétrica, considerando Caso 1 ao Caso 4, respectivamente.
 
 <div>
-<img src="Github_Figures/Figure5.png" width="100%">
+<img src="Github_Figures/Figure5.png" width="80%">
 </div>
 <p>
  <b>Figure 5:</b> DYNAblast 2.0 - Dynamic Analysis
 </p>
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case1" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case1.png" width="60%">
 </div>
 <p>
  <b>Figure 6:</b> DYNAblast 2.0 - Parametric Analysis, Case 1
 </p>
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case2" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case2.png" width="60%">
 </div>
 <p>
  <b>Figure 7:</b> DYNAblast 2.0 - Parametric Analysis, Case 2
 </p>
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case3" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case3.png" width="60%">
 </div>
 <p>
  <b>Figure 8:</b> DYNAblast 2.0 - Parametric Analysis, Case 3
 </p>
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case4" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case4.png" width="60%">
 </div>
 <p>
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 4
 </p>
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case5" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case5.png" width="60%">
 </div>
 <p>
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 5
 </p>
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case6" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case6.png" width="60%">
 </div>
 <p>
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 6
 </p>
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case7" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case7.png" width="60%">
 </div>
 <p>
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 7
 </p>
 
-
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case8" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case8.png" width="60%">
 </div>
 <p>
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 8
@@ -160,7 +159,7 @@ Após a inserção de todas as informações descritas, o usuário pode escolher
 
 
 <div>
-<img src="Github_Figures/ParametricAnalysis_Case9" width="70%">
+<img src="Github_Figures/ParametricAnalysis_Case9.png" width="60%">
 </div>
 <p>
  <b>Figure 9:</b> DYNAblast 2.0 - Parametric Analysis, Case 9
