@@ -170,7 +170,7 @@ Após a inserção de todas as informações descritas, o usuário pode escolher
 This software was developed by Dr. Ana W.Q.R. Reis and supervised by professor Dr. Rodrigo B. Burgos, at Rio de Janeiro State University, as show in Figure 10.
 
 <div>
-<img src="Figures/Figure10.png" width="50%">
+<img src="Github_Figures/Figure10.png" width="50%">
 </div>
 <p>
  <b>Figure 10:</b> DYNAblast 2.0 - About the Software
